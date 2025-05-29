@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+header {
+    background: linear-gradient(120deg, #007cf0 0%, #00dfd8 100%);
+    color: #fff;
+    padding-bottom: 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.nav-links li a:hover {
+    color: #00dfd8;
+}
+.hero {
+    text-align: center;
+    margin-top: 60px;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.cta-btn {
+    background: #00dfd8;
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.cta-btn:hover {
+    background: #007cf0;
+}
+section {
+    padding: 60px 10% 40px 10%;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.services-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-card {
+    background: #f4f6f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.contact-form button {
+    background: #007cf0;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.contact-form button:hover {
+    background: #00dfd8;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #222;
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+    margin-top: 20px;
+}
